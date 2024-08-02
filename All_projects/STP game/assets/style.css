@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.choice{
+    background-color: chocolate;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: blanchedalmond;
+    cursor: pointer;
+}
+
+.choice:hover{
+    border: 2px solid black;
+}

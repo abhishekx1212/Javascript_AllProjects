@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/bootstrap.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body class="bg-dark">
+    <div class="container mt-md-5">
+        <div class="row mt-2 justify-content-center">
+            <div class="col-12 text-center text-white rounded-4" style="background-color: rgb(225,225,225,0.6);">
+                <h1>ROCK, PAPER AND SCISSORS</h1>
+            </div>
+            <div class="col-6 mt-4">
+                <div class="choices d-flex justify-content-center">
+                    <div class="choice me-4" id="rock">
+                        <h3>ROCK</h3>
+                    </div>
+                    <div class="choice me-4" id="paper">
+                        <h3>PAPER</h3>
+                    </div>
+                    <div class="choice" id="scissors">
+                        <h3>SCISSORS</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+            <div class="col-3 text-center">
+                <div class="user-score">
+                    <span class="fs-1 text-warning" id="userScore">0</span>
+                    <h5 class="fs-4 text-warning">Your score</h5>
+                </div>
+            </div>
+            <div class="col-3 text-center">
+                <div class="comp-score">
+                    <span class="fs-1 text-warning" id="compScore">0</span>
+                    <h5 class="fs-4 text-warning">comp score</h5>
+                </div>
+            </div>
+            <div class="col-12 text-center mt-5">
+                <div class="score-board rounded-4 bg-dark px-5 py-2 text-white" style="display: inline-block;">
+                    <h2 id="result">score</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="assets/script.js"></script>

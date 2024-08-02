@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.project-content .project-img .info p{
+  font-size: 18px;
+  color: white;
+}
+
+.project-content .project-img .info{
+  display: none;
+}
+
+.blur-class{
+  filter: blur(5px);
+}
+
+.project-content {
+  border-radius: 18px;
+}
+
+.project-content .project-head .icons i {
+  font-size: 24px;
+  text-align: center;
+  align-content: center;
+  border: 3px solid white;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.project-content .project-img{
+  position: relative;
+}
+
+.project-content {
+  background-color: rgba(225, 225, 225, 0.5);
+}
+
+.project-content .project-img .info{
+  position: absolute;
+  background-color: rgba(225, 225, 225, 0.5);
+  top: 10px;
+  left: 5px;
+  right: 5px;
+  padding: 0 0 0 10px;
+  border-radius: 17px;
+}

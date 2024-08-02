@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>WEATHER APP</title>
+</head>
+
+<body>
+    <div class="container py-5">
+        <div class="row justify-content-center flex-wrap px-3">
+            <div class="col-md-7 col-lg-5 col-xl-4 py-4 px-3 outer">
+                <div class="weather-content row justify-content-between gy-3">
+                    <div class="col-12">
+                        <select name="" id="selectValue" class="form-select selectValue">
+                            <option value="">Select State</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <select name="" id="selectValue2" class="form-select selectValue">
+                            <option value="">Select District</option>
+                        </select>
+                    </div>
+                    <div class="col-12 d-flex">
+                        <div class="result-box" id="result"></div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-danger w-100" id="reset">RESET</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="assets/jquery.js"></script>
+<script src="assets/main.js"></script>
